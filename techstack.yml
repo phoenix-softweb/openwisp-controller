@@ -1,0 +1,359 @@
+repo_name: phoenix-softweb/openwisp-controller
+report_id: 42bfd13821ec6906fa3c9bd3b2e748a0
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-22T11:17:33+00:00'
+requested_by: nemesifier
+provider: github
+branch: master
+detected_tools_count: 28
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller
+  detection_source: Repo Metadata
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Pablo Castellano
+  last_updated_on: 2020-04-10 14:44:45.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Federico Capoano
+  last_updated_on: 2023-05-08 14:24:20.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2021-03-08 03:19:06.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: iDoneThis
+  description: Easy daily check-ins and powerful progress reports to run more effective
+    and productive teams
+  website_url: https://idonethis.com/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Team Task Management
+  image_url: https://img.stackshare.io/service/338/default_f863a3d7f927a74d6ae21e8e152265bd07ca6cfe.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: morrme
+  last_updated_on: 2020-08-19 19:25:41.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller
+  detection_source: Repo Metadata
+- name: channels-redis
+  description: Redis-backed ASGI channel layer implementation
+  package_url: https://pypi.org/project/channels-redis
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: Federico Capoano
+  last_updated_on: 2023-04-19 20:44:31.000000000 Z
+- name: django-import-export
+  description: Django application and library for importing and exporting data with
+    included admin integration
+  package_url: https://pypi.org/project/django-import-export
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20791/default_3b7e58b539b7ec2308803d9baa08705044c42413.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Federico Capoano
+  last_updated_on: 2024-04-09 20:43:34.000000000 Z
+- name: django-redis
+  description: Full featured redis cache backend for Django
+  package_url: https://pypi.org/project/django-redis
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20669/default_8661a5c1d9ac6f06e853c3c1b9fe936bb7029ff7.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: Federico Capoano
+  last_updated_on: 2023-04-19 20:44:31.000000000 Z
+- name: django-reversion
+  description: An extension to the Django web framework that provides version control
+    for model instances
+  package_url: https://pypi.org/project/django-reversion
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20575/default_5cf880788cf7f367fc3344239d11b0098d4df1d3.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Federico Capoano
+  last_updated_on: 2024-04-09 20:43:34.000000000 Z
+- name: django-sortedm2m
+  description: Drop-in replacement for django's many to many field with sorted relations
+  package_url: https://pypi.org/project/django-sortedm2m
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Federico Capoano
+  last_updated_on: 2024-04-09 20:43:34.000000000 Z
+- name: django-taggit
+  description: Django-taggit is a reusable Django application for simple tagging
+  package_url: https://pypi.org/project/django-taggit
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20476/default_800512522a1f8bb3ddeb015413c72f7409eb0719.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Federico Capoano
+  last_updated_on: 2024-04-09 20:43:34.000000000 Z
+- name: netaddr
+  description: A network address manipulation library for Python
+  package_url: https://pypi.org/project/netaddr
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19938/default_33cd769f45954740da26824e035edca16b8b6b14.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2021-03-08 03:19:06.000000000 Z
+- name: paramiko
+  description: SSH2 protocol library
+  package_url: https://pypi.org/project/paramiko
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19896/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: pytest-django
+  description: A Django plugin for pytest
+  package_url: https://pypi.org/project/pytest-django
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20505/default_0a4b1ff56fc84a423341df2dee7f169b1171f64d.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: responses
+  description: A utility library for mocking out the `requests` Python library
+  package_url: https://pypi.org/project/responses
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements-test.txt
+  detection_source: requirements-test.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2023-06-19 20:41:23.000000000 Z
+- name: scp
+  description: Scp module for paramiko
+  package_url: https://pypi.org/project/scp
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20662/default_56e4919d534a15560c38f9eff11f052b565e9bb0.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2021-03-08 03:19:06.000000000 Z
+- name: shortuuid
+  description: A generator library for concise
+  package_url: https://pypi.org/project/shortuuid
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/phoenix-softweb/openwisp-controller/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Gagan Deep
+  last_updated_on: 2021-07-27 01:58:48.000000000 Z
